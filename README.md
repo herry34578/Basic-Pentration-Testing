@@ -4,7 +4,7 @@ Port
 GObuster  (Hidden directory on webserver ('development found ')
 gobuster dir -u 10.10.111.148  --wordlist  /usr/share/wordlists/rockyou.txt 
 
-enum4linux  ( Username "jan & "kay" found)
+Enum4linux  ( Username "jan & "kay" found)
 enum4linux/enum4linux.pl -a 10.10.111.148 | tee enum4linux.log
 
 
@@ -16,4 +16,4 @@ linpeas    scp  /opt/linpeas/linpeas.sh  jan@ip:/dev/shm
 ( ye basically install hoti hy apni machine me phr ssh se target machine me)
 
 
-john the ripper
+john the ripper   
